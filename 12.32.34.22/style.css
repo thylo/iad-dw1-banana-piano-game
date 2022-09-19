@@ -1,0 +1,42 @@
+body {
+  background: #357860;
+  font-family: "Comic Sans MS", Arial, sans-serif;
+  font-size: 16px;
+}
+h1 {
+  color: red;
+  font-size: 4rem;
+}
+.menu {
+  color: pink;
+}
+.menu a:active {
+  color: blue;
+}
+.container {
+  background: white;
+  width: 960px;
+  margin: 4rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+.logo {
+  width: 6rem;
+  height: 6rem;
+}
+.nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.nav li{
+  padding: 1rem;
+}
+
+.button{
+  background: yellow url("images.bananapiano.be/36");
+  padding: 1rem 2rem;
+  border-radius: 9999rem;
+  text-decoration: none;
+  color: green;
+}

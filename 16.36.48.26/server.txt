@@ -1,0 +1,7 @@
+Bienvenue sur l'application "shop.bananapiano.be"
+
+Ce serveur écoute sur les requetes entrantes sur le port 80.
+
+Quand une requete entre sur ce serveur:
+   - Si l'url contient categorie execute le fichier "routes/categorie"
+   - Si l'url ne contient rien de particulier execute le fichier "routes/home"
